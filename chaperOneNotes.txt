@@ -1,0 +1,31 @@
+- HTML uses elements to describe structure of pages
+    - Each element has an opening and closing tag
+    - Tags act like containers. They tell you something
+      about the information that lies between their opening
+      and closing tags.
+
+- Common Tags
+    - <html>Opening html tag, indicates everything in between is html code</html>
+    - <body>Anything in between body tags should be shown inside the main browser window</body>
+    - <h1>Main Heading</h1>
+    - <p>Paragraph</p>
+    - <h2>Sub-Heading</h2>
+    
+- Attributes tell us more about elements
+    - Attributes provide additional information about the contents of an element. 
+      They appear on the opening tag of the element and are made up of two parts:
+        - Name
+        - Value
+    - The name and value are separated by an equal sign
+        - Example: <p lang="en-us">Paragraph in English</p>
+        - lang is the attribute name
+        - en-us is the attribute value
+    - Name indicates what kind of extra information you are supplying about the element's contents
+      Should be written in lowercase
+    - Value is information or setting for the attribute. It should be placed in double quotes.
+    - Majority of attributes can only be used on certain elements
+    - Some can be used on any element (such as lang)
+
+    - <title>: Anything written between the <title> tags will appear in the title bar,
+      or tabs at the top of the browser window
+      
