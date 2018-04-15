@@ -1,0 +1,14 @@
+/* color name */
+h1 {
+    color: blue;
+}
+
+/* hex code */
+h2 {
+    color: black;
+}
+
+/* rgb value */
+p {
+    color: rgb(100,100,90);
+}
