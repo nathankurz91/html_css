@@ -1,0 +1,25 @@
+/*
+Here the second paragrah p.example position element has been changed to relative.
+I'ts position is now 10 down from its normal position, and 100 px to the right of 
+its normal position.
+*/
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+h1 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+p {
+    width: 450px;
+}
+
+p.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}

@@ -1,0 +1,23 @@
+/*
+Normal flow does not need a CSS property to indicate that is in 
+normal flow, but the syntax would be: 
+    position: static;
+
+No width is specified for the heading element, so the box stretches the 
+width of the entire browser window by default.
+
+With the paragraphs restricted to 450px width, the elements in normal mode show
+up on a new line even if they do not take up the width of the browser window.
+*/
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+h1 {
+    background-color: #efefef;
+    padding: 10px;
+}
+p {
+    width: 450px;
+}

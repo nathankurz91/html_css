@@ -1,0 +1,16 @@
+/*
+The position property "absolute" means the box is taken out of normal flow
+and does not affect the position of other elements on the page. 
+*/
+
+h1 {
+    position: absolute;
+    margin: 0px; /* This removes the default header margin*/
+    top: 0px;
+    left: 500px;
+    width: 250px;
+}
+
+p {
+    width: 450px;
+}

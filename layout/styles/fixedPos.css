@@ -1,0 +1,25 @@
+/*
+Fixed positioning
+    position: fixed;
+
+Positions elements in relation to the browser window. When a user scrolls it stays
+in the exact same place on the screen. 
+*/
+
+h1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;
+}
+
+p {
+    width: 450px;
+}
+
+p.example {
+    margin-top: 100px;
+}

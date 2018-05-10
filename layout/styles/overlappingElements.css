@@ -1,0 +1,28 @@
+/*
+Overlapping Elements
+
+Using positioning can cause boxes to overlap. Elements that appear later in the code sit on top of
+those that appear earlier.
+
+Use the "z-index" element to indicate which element sits on top. The higher the value (number) the closer it is to the 
+top.
+*/
+
+h1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    background-color: #efefef;
+    z-index: 10;
+}
+
+p {
+    position: relative;
+    top: 70px;
+    left: 70px;
+    width: 450px;
+}
+
